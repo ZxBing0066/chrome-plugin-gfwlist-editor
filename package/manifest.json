@@ -1,0 +1,20 @@
+{
+  "name": "GfwList editor",
+  "version": "0.1.0",
+  "description": "GfwList editor for shadowsocks gfwlist.js.",
+  "app": {
+    "background": {
+      "page": "background.html"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "24": "icon.png",
+    "32": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [{
+    "fileSystem": ["write", "retainEntries"]
+  }, "storage"],
+  "manifest_version": 2
+}

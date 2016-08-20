@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body, #mainContainer, #mainContainer>div {
+    height: 100%;
+}
+.editor.wrapper {
+    height: 100%;
+    overflow-y: auto;
+}
+.contentWrapper {
+    padding-top: 60px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.wrapperLinearProgress {
+    height: 4px;
+    padding: 3px;
+}
+.fixedHeader {
+    top: 0;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
+.flex {
+    display: flex;
+}
+.fixedHeader>.flex {
+    padding: 0 2px;
+}
+.list.wrapper {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #333
+}
+.list.wrapper li {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    position: relative;
+}
+.list.wrapper li>* {
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.list.wrapper li i {
+}
+.list.wrapper li span {
+    display: inline-block;
+    width: calc(100% - 40px);
+    overflow: auto;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.list.wrapper li input[type='checkbox'] {
+}
